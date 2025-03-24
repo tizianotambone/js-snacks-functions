@@ -4,6 +4,9 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+function stringhe(word){
+    word.map()
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
