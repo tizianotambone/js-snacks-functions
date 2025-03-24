@@ -5,12 +5,15 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 function stringhe(word){
-    word.map()
+    let vocali="aeiou"
+    let lettere= word.split("").filter(carattere=>(vocali.includes(carattere))).join("")
+   
+    return  lettere
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(stringhe(word))
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
